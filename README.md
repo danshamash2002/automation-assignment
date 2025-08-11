@@ -24,6 +24,6 @@ Initial File path:
 
 Setup/Running Instructions:
 1. In a desired path/location, open the git bash and enter the following command: "git clone https://github.com/danshamash2002/automation-assignment.git"
-2. Within the folder the previous command opened, open a command line terminal and write the following command: "npx cypress open"
+2. Within the folder the previous command opened, open a command line terminal and write the following commands: "npm install", "npx cypress open"
 3. Within the cypress tab we just opened, choose "E2E Testing", then choose the chrome browser and press "Start E2E Testing in Chrome"
 4. Finally, within specs, click on the file named after the task you would like to run.
