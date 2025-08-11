@@ -10,6 +10,7 @@ The repository has 2 tasks of the given assignment:
 
 
 Initial File path:
+
 ├── cypress/
 │ ├── e2e/ # End-to-end test specs
 │ ├── fixtures/ # Test data and mock responses
@@ -19,6 +20,7 @@ Initial File path:
 ├── package.json
 ├── tsconfig.json # Root TypeScript configuration
 └── README.md
+
 
 Setup/Running Instructions:
 1. In a desired path/location, open the git bash and enter the following command: "git clone https://github.com/danshamash2002/automation-assignment.git"
