@@ -1,0 +1,24 @@
+{
+  "name": "automation-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvod-harav/automation-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvod-harav/automation-assignment/issues"
+  },
+  "homepage": "https://github.com/kvod-harav/automation-assignment#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "typescript": "^5.9.2"
+  }
+}
