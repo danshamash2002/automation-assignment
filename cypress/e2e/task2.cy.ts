@@ -23,7 +23,7 @@ function validatesContainsArray(element,array) {
   }
 }
 
-describe('Amazon Product-Cart Test', () => {
+describe('Task 2 - Amazon Automation', () => {
   beforeEach(() => {
     // cy.viewport(1280,720)
     // cy.viewport(1980,1080)
@@ -37,7 +37,7 @@ describe('Amazon Product-Cart Test', () => {
     cy.get('#nav-logo-sprites').trigger(`mouseover`)
     
   })
-  it('Task 2 - validates navigation menu and goes to "where is my stuff page"', () => {
+  it('validates navigation menu and goes to "where is my stuff page"', () => {
     // cy.visit('https://www.amazon.com/') // Open the site
     cy.get('#nav-main', { timeout: 15000 }).should('be.visible');
     // cy.get(`[data-action-type="DISMISS"]`).then($btn => {
